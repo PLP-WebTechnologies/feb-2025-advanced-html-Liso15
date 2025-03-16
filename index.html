@@ -1,0 +1,119 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Webpage</title>
+</head>
+<body>
+
+  <!-- Ordered List with Roman Numerals -->
+  <h2>Ordered List with Roman Numerals</h2>
+  <ol type="I">
+    <li>First Item</li>
+    <li>Second Item</li>
+    <li>Third Item</li>
+  </ol>
+
+  
+  <h2>Image</h2>
+  <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg" alt="Nature Image" width="500">
+
+  <!-- Table of 5 Contacts -->
+  <h2>Contact Table</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John Doe</td>
+        <td>12 komani park, Komai</td>
+        <td>078-456-7890</td>
+        <td>john@gamil.com</td>
+      </tr>
+      <tr>
+        <td>Jane Smith</td>
+        <td>12 Yorkroad, Mthatha</td>
+        <td>078-456-7890</td>
+        <td>jane8@gamil.com</td>
+      </tr>
+      <tr>
+        <td>Sanelisiwe Bolilitye</td>
+        <td>15 Mandela drive, Mthatha</td>
+        <td>082-678-9012</td>
+        <td>Sanelisiwe@gamil.com</td>
+      </tr>
+      <tr>
+        <td>Lutho Siyengo</td>
+        <td>101 Pine St, Durban</td>
+        <td>063-789-0123</td>
+        <td>Siyengo15@gamil.com</td>
+      </tr>
+      <tr>
+        <td>Bubele Sinyokotho</td>
+        <td>20 Spring street, Qumbu</td>
+        <td>084-890-1234</td>
+        <td>Bubele@gamil.com</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Registration Form -->
+  <h2>Registration Form</h2>
+  <form>
+    
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+   
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="8"><br><br>
+
+    <!-- Date Field -->
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <!-- Dropdown Menu -->
+    <label for="country">Country:</label><br>
+    <select id="country" name="country" required>
+      <option value="">Select your country</option>
+      <option value="usa">United States</option>
+      <option value="canada">Canada</option>
+      <option value="uk">United Kingdom</option>
+      <option value="sa">South Africa</option>
+    </select><br><br>
+
+    <!-- Radio Buttons -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other" required>
+    <label for="other">Other</label><br><br>
+
+    <!-- Checkboxes -->
+    <label>Interests:</label><br>
+    <input type="checkbox" id="sports" name="interests" value="sports">
+    <label for="sports">Sports</label><br>
+    <input type="checkbox" id="music" name="interests" value="music">
+    <label for="music">Music</label><br>
+    <input type="checkbox" id="travel" name="interests" value="travel">
+    <label for="travel">Travel</label><br><br>
+
+    <!-- Submit Button -->
+    <button type="submit">Register</button>
+  </form>
+
+</body>
+</html>
